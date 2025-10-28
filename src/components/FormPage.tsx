@@ -67,7 +67,7 @@ const FormPage: React.FC = () => {
       data.append('licenseImage', formData.licenseImage);
 
       // 🔥 Change this URL to your actual backend endpoint
-      const response = await fetch('http://localhost:5000/api/lessons', {
+      const response = await fetch('https://lessons-backend-36hi.onrender.com/api/lessons', {
         method: 'POST',
         body: data,
       });
@@ -184,3 +184,4 @@ const FormPage: React.FC = () => {
 };
 
 export default FormPage;
+
