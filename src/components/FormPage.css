@@ -1,0 +1,74 @@
+ .lesson-form-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  background: #f9fafb;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.lesson-form-container h1 {
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.lesson-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.lesson-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  color: #333;
+}
+
+.lesson-form input,
+.lesson-form textarea {
+  margin-top: 0.4rem;
+  padding: 0.6rem 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border 0.2s;
+}
+
+.lesson-form input:focus,
+.lesson-form textarea:focus {
+  border-color: #0078ff;
+}
+
+.image-preview {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.image-preview img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.submit-btn {
+  background: #0078ff;
+  color: white;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.submit-btn:hover {
+  background: #005fcc;
+}
+
+.form-success {
+  text-align: center;
+  margin-top: 3rem;
+}
