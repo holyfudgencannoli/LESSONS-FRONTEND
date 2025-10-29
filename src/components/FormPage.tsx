@@ -72,7 +72,7 @@ const FormPage: React.FC = () => {
         body: data,
       });
 
-    //   if (!response.ok) throw new Error('Failed to submit form');
+      if (!response.ok) throw new Error('Failed to submit form');
 
       setStatus('success');
       setMessage('✅ Form submitted successfully! We’ll contact you soon.');
@@ -184,4 +184,5 @@ const FormPage: React.FC = () => {
 };
 
 export default FormPage;
+
 
